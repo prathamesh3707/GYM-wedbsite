@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        height: 300px;
+        width: 100%;
+        border: 2px solid black;
+
+    }
+
+    .container::before {
+        content: "";
+        position: absolute;
+        background: url('https://cdn.pixabay.com/photo/2017/07/16/07/50/imprint-2508603__340.jpg')no-repeat center center/cover;
+        width: 80%;
+        height: 47%;
+        z-index: -1;
+        opacity: 0.9;
+
+    }
+
+    #head {
+        display: block;
+        width: 300px;
+        font-size: 2em;
+        position: absolute;
+        top: 10px;
+        right: 100px;
+        color: rgb(27, 27, 121);
+    }
+
+    #head p {
+        color: black;
+
+    }
+
+    .lower {
+        height: 320px;
+        width: 100%;
+        background-color: rgb(206, 222, 224);
+        margin: -30px auto;
+    }
+
+    .lower p {
+        font-size: 30px;
+        padding: 10px 50px;
+    }
+    .footer{
+    
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(12, 12, 12);
+            color: white;
+            text-align: center;
+    }
+   
+</style>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <div id="head">
+                <h1>PK Fitness</h1>
+                <p>
+                    India, Canada, Dubai, USA, UK.
+                    -Since 1999
+                </p>
+            </div>
+        </div>
+        <div class="lower">
+            <p>
+                PK Fitness actually pumps out extra oxygen from their AC, which in turn helps to keep energy levels up
+                and increases your stamina. Beat that? The ambiance has a nightclub vibe to it with purple velvet walls,
+                gold fashioned iron frames with huge mirrors (for the self-obsessed) and a huge disco ball themed DJ
+                booth. Nitrro is SoBo's largest gym in 20,000 sq ft.</p>
+            <p>
+
+                The gym offers aerobics, dance, yoga, spinning, sports rehab, nutrition, physiotherapy, and personal
+                training. A Crèche facility is also available for moms or dads who do not have help at home and need to
+                get their kids along to the gym.
+            </p>
+
+        </div>
+
+    </div>
+    <footer class="footer">
+        Copyright &copy; PKFitness.com
+       
+    </footer>
+</body>
+
+</html>
